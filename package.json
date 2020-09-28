@@ -1,0 +1,24 @@
+{
+  "name": "webpackDemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ollie-lee/webpackDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ollie-lee/webpackDemo/issues"
+  },
+  "homepage": "https://github.com/Ollie-lee/webpackDemo#readme",
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
