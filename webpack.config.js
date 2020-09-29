@@ -9,11 +9,15 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /\.scss$/,
         // order matters!
         //webpack loads loader of use array in reverse order
         //i.e. here, css-loader is loaded first
-        use: ["style-loader", "css-loader"]
+        use: [
+          "style-loader",//3. Inject styles into DOM
+          "css-loader",//2. Turns css into commonjs
+          'sass-loader'//1. Turns sass into css
+        ]
       }
     ]
   }
